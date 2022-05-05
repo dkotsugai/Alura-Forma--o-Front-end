@@ -4,6 +4,10 @@ body {
   background-color: #aaa;
 }
 
+#banner {
+  width: 100%;
+}
+
 h1 {
   text-align: center;
 }
