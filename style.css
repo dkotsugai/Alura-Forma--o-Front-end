@@ -3,8 +3,16 @@
 body {
 }
 
+header {
+  text-align: center;
+}
+
 #banner {
   width: 100%;
+}
+
+.titulo-principal {
+  padding-left: 20px;
 }
 
 .principal {
@@ -13,6 +21,10 @@ body {
 }
 
 h1 {
+  text-align: center;
+}
+
+.titulo-centralizado {
   text-align: center;
 }
 
