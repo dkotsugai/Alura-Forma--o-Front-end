@@ -254,7 +254,8 @@ th {
   .principal,
   .conteudo-beneficios,
   .mapa-conteudo,
-  .video {
+  .video,
+  .produtos {
     width: auto;
   }
 
@@ -265,9 +266,24 @@ th {
   nav {
     position: static;
   }
+  select {
+    font-size: 20px;
+  }
+
+  .produtos li {
+    display: block;
+    width: 100%;
+    margin-top: 0.8em;
+    margin-left: 0em;
+  }
 
   .lista-beneficios,
   .imagem-beneficios {
     width: 100%;
+  }
+  .input-padrao {
+    border-bottom-style: solid;
+    font-size: 20px;
+    width: 70%;
   }
 }
