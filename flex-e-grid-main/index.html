@@ -2,6 +2,7 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HZC | Home</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -34,47 +35,40 @@
       />
       <a
         href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--inicio"
-        >Inicio</a
+        class="menu-lateral__link menu-lateral__link--inicio menu-lateral__link--ativo"
+        >Início</a
       >
-      <a
-        href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--videos"
-        >Videos</a
+      <a href="#" class="menu-lateral__link menu-lateral__link--videos"
+        >Vídeos</a
       >
-      <a
-        href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--picos"
-        >Picos</a
-      >
-      <a
-        href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--integrantes"
+      <a href="#" class="menu-lateral__link menu-lateral__link--picos">Picos</a>
+      <a href="#" class="menu-lateral__link menu-lateral__link--integrantes"
         >Integrantes</a
       >
-      <a
-        href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--camisas"
+      <a href="#" class="menu-lateral__link menu-lateral__link--camisas"
         >Camisas</a
       >
-      <a
-        href="#"
-        class="menu-lateral__link menu-lateral__link--ativo menu-lateral__link--pinturas"
+      <a href="#" class="menu-lateral__link menu-lateral__link--pinturas"
         >Pinturas</a
       >
     </nav>
     <main class="principal">
       <h2 class="titulo-pagina">Início</h2>
-      <article class="cartao cartao--destaque">
+      <article class="cartao cartao--destaque destaque-video">
         <img
           src="assets/img/banner-mobile_1.png"
-          alt="Banner do Cartao"
-          class="cartao__imagem"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--mobile"
+        />
+        <img
+          src="assets/img/banner_1.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--desktop"
         />
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
           <h3 class="cartao__titulo">HZC - Título</h3>
-          <p class="cartao__perfil">Bruno Lopes</p>
+          <p class="cartao__perfil">Bruno Lopez</p>
           <p class="cartao__info cartao__info--tempo">33 minutos</p>
           <p class="cartao__info cartao__info--visualizacao">
             33 visualizações
@@ -86,8 +80,8 @@
           </button>
         </div>
       </article>
-      <article class="cartao cartao--recentes">
-        <h3 class="cartao__titulo">Videos recentes</h3>
+      <article class="cartao cartao--recentes videos-recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
         <a href="#" class="cartao__link">Ver todos</a>
         <ul class="cartao__lista">
           <li class="cartao__item">
@@ -137,16 +131,16 @@
           </li>
         </ul>
       </article>
-      <section class="secao">
-        <h3 class="titulo-secao">Videos mais vistos</h3>
+      <section class="secao secao-videos">
+        <h3 class="titulo-secao">Vídeos mais vistos</h3>
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -158,11 +152,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -174,11 +168,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -190,11 +184,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -204,8 +198,8 @@
           </div>
         </article>
       </section>
-      <article class="cartao cartao--recentes">
-        <h3 class="cartao__titulo">Videos recentes</h3>
+      <article class="cartao cartao--recentes produtos-recentes">
+        <h3 class="cartao__titulo">Vídeos recentes</h3>
         <a href="#" class="cartao__link">Ver todos</a>
         <ul class="cartao__lista">
           <li class="cartao__item">
@@ -255,16 +249,21 @@
           </li>
         </ul>
       </article>
-      <article class="cartao cartao--destaque">
+      <article class="cartao cartao--destaque destaque-produtos">
         <img
-          src="assets/img/banner-mobile_1.png"
-          alt="Banner do Cartao"
-          class="cartao__imagem"
+          src="assets/img/banner-mobile_2.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--mobile"
+        />
+        <img
+          src="assets/img/banner_2.png"
+          alt="Banner do cartao"
+          class="cartao__imagem cartao__imagem--desktop"
         />
         <div class="cartao__conteudo">
           <p class="cartao__destaque">Vídeo em destaque</p>
           <h3 class="cartao__titulo">HZC - Título</h3>
-          <p class="cartao__perfil">Bruno Lopes</p>
+          <p class="cartao__perfil">Bruno Lopez</p>
           <p class="cartao__info cartao__info--tempo">33 minutos</p>
           <p class="cartao__info cartao__info--visualizacao">
             33 visualizações
@@ -276,16 +275,16 @@
           </button>
         </div>
       </article>
-      <section class="secao">
-        <h3 class="titulo-secao">Videos mais vistos</h3>
+      <section class="secao secao-produtos">
+        <h3 class="titulo-secao">Vídeos mais vistos</h3>
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -297,11 +296,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -313,11 +312,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
@@ -329,11 +328,11 @@
         <article class="cartao">
           <img
             src="assets/img/video_1.png"
-            alt="Video"
+            alt="Vídeo"
             class="cartao__imagem"
           />
           <div class="cartao__conteudo">
-            <p class="cartao__perfil">Bruno Lopes</p>
+            <p class="cartao__perfil">Bruno Lopez</p>
             <h3 class="cartao__titulo">HZC - Título</h3>
             <p class="cartao__info cartao__info--tempo">33 minutos</p>
             <button
